@@ -48,16 +48,13 @@
   color: black;
 }
 
-#navbar ul ul{
-    display:none;
-    position:absolute;
-    top:100%;
-    background-color:#fadde8;
-}
+#nav li.sub-nav ul{
+display: none;
+ }
 
-#navbar ul li:hover > ul{
-    display:block;
-}
+#nav li.sub-nav:hover ul{
+display: block;
+ }
 
 /* Main content */
 
