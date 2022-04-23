@@ -48,13 +48,14 @@
   color: black;
 }
 
-#nav li.sub-nav ul{
-display: none;
- }
-
-#nav li.sub-nav:hover ul{
-display: block;
- }
+ #nav li.subNav:hover ul li {
+      visibility: visible;
+      width:  171px;
+      padding: 0;
+      cursor: pointer;
+      float: none !important;
+      display: block !important;
+  }
 
 /* Main content */
 
