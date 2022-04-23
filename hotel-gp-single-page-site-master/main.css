@@ -48,6 +48,17 @@
   color: black;
 }
 
+#navbar ul ul{
+    display:none;
+    position:absolute;
+    top:100%;
+    background-color:#fadde8;
+}
+
+#navbar ul li:hover > ul{
+    display:block;
+}
+
 /* Main content */
 
 .main {
