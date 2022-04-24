@@ -544,7 +544,7 @@ img{
 
 .sign-up-form
 {
-    width: 250px;  /* How big the sign up form is*/
+    width: 500px;  /* How big the sign up form is*/
     /*background: white; let the background be transparent*/
     padding: 40px;
     margin: 10% auto 0%; /* Centers the form & 0 margin from top and 0 margin from bottom */
@@ -563,12 +563,13 @@ img{
     padding: 7px;
     margin: 5px 0;
     width: 100%;
+    font-size: 15px;
 }
 
 .sign-up-btn
 {
     font-size: 15px;
-    width: 50%;
+    width: 300;
     padding: 2px;
     color: white;
     border-radius: 20px;
