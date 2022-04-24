@@ -620,3 +620,15 @@ img{
     left: 0;
     z-index: 5;
 }
+
+.privacy-top{
+    background-color: yellow;
+    
+}
+
+.privacy-top > center > h1{
+    font-size: 40px;
+}
+.privacy-top > center > p{
+    font-size: 20px;
+}
