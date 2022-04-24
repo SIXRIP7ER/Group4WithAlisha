@@ -680,6 +680,8 @@ img{
     color: #545454;
     text-align:justify;
     margin: 40px;
+    font-size: 30px; 900
+    font-weight: 900;
 }
 .text{
     flex: 1;
