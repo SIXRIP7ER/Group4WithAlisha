@@ -28,11 +28,11 @@
             <form class = "book-form">
                 <div class = "form-item">
                     <label for = "checkin-date">Check In Date: </label>
-                    <input type = "date" id = "chekin-date" required>
+                    <input type = "date" id = "chekin-date">
                 </div>
                 <div class = "form-item">
                     <label for = "checkout-date">Check Out Date: </label>
-                    <input type = "date" id = "chekout-date" required>
+                    <input type = "date" id = "chekout-date">
                 </div>
                 <div class = "form-item">
                     <label for = "Room Type">Room Type:</label>
@@ -60,7 +60,7 @@
             </form>
         </div>
 </section>
-        <div class = "book">
+        <div class = "bbook">
             <form class = "book-form">
                 <div class = "form-item">
                     <label for = "Diet">Pet's Dietary Requirements:</label>
@@ -95,7 +95,7 @@
                 </div>
 
                 <div class = "form-item">
-                    <label for = "AddOns">Additional Add-Ons for your Pet (Hold command/ctrl to select multiple)</label>
+                    <label for = "AddOns">Additional Add-Ons for your Pet (Hold command to select multiple)</label>
                         <select name="select" multiple id="#">
                             <option value="Spa treatment">Spa treatment</option>
                             <option value="Daily toy playtime with carer">Daily toy playtime with carer</option>
@@ -103,6 +103,7 @@
                             <option value="Bedtime story">Bedtime story</option>
                             <option value="Daily videoconference with owner">Daily videoconference with owner</option>
                 </div>
+
                 <div class = "form-item">
                     <input type="button" onclick="window.location.href = 'confirmation.html';" value="BOOK NOW"/>
                 </div>
@@ -119,6 +120,13 @@
                     <div class = "showrooms">
                         <h3>Gold Room</h3>
                         <p>Room comes with quiet space, spa area, and yummy healthy food. The room includes a pool and an outdoor area with caretakers that play with your pets. The fish also have a large play area in the fish pool. </p>
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                        </div>
                         <img src = "images/img1.jpg" alt = "customer image">
                         <p class = "rate">
                             <span>$20.00 /</span> Per Night
@@ -130,6 +138,13 @@
                     <div class = "showrooms">
                         <h3>Silver Room</h3>
                         <p>Healthy and yummy treats for all types of furry friends! All medicine and caretaking happens in this room for our special pets. The toilets are kept tidy and clean for the lovely pets, as well as the fish tank.</p>
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
                         <img src = "images/img2.jpg" alt = "customer image">
                         <p class = "rate">
                             <span>$15.00 /</span> Per Night
@@ -142,6 +157,13 @@
 
                         <h3>Bronze Room</h3>
                         <p>This room includes the lovely space with pillows and play area. There is healthy yummy treats and friendly caretakers that play with your pets, keeping them company. The toilets are kept tidy and clean .</p>
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
                         <img src = "images/img3.jpg" alt = "customer image">
                         <p class = "rate">
                             <span>$10.00 /</span> Per Night
@@ -181,7 +203,7 @@
             <div class = "footer-container">
                 <div>
                     <h2>About Us </h2>
-                    <a href = "about.html">About Us</a>
+                    <a href = "#header">About Us</a>
                 </div>
 
                 <div>
