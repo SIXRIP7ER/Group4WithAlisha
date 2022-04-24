@@ -668,7 +668,9 @@ img{
 
 .inner-container{
      background-color: #fdfdfd;
-     padding: 20px;
+     float: right;
+     width: 55%;
+     padding: 150;
 }
 .inner-container h1{
     margin-bottom: 30px;
