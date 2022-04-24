@@ -566,9 +566,29 @@ img{
     font-size: 15px;
 }
 
+.sign-up-form label, .book-form input{
+    width: 100%;
+}
+.sign-up-form label{
+    font-weight: 600;
+    word-spacing: 3px;
+    padding-bottom: 8px;
+}
+
+.signup-dob
+{
+    font-size: 15px;
+    width: 30%;
+    padding: 2px;
+    /*color: white;*/
+    border-radius: 20px;
+    cursor: pointer; /*brings thumb on hover*/
+}
+
 .sign-up-btn
 {
     font-size: 15px;
+    margin: 5px 0;
     width: 300;
     padding: 2px;
     color: white;
