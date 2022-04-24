@@ -22,6 +22,7 @@
     overflow: hidden;
     top: 0;
     width:100%;
+    
   }
 /* The navigation bar */
 .navbar_fixed {
@@ -281,7 +282,9 @@ img{
 .book{
     background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("images/banner-img.jpg") center/cover no-repeat;
     color: #fff;
-    padding: 40px 60px;
+    padding-top: 200px;
+    margin-top: ;
+    /*padding: 10px 60px;*/
 }
 .book-form{
     display: grid;
@@ -341,6 +344,46 @@ img{
         padding-left: 20px;
         padding-right: 20px;
     }
+}
+
+.bbook{
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("images/banner-img.jpg") center/cover no-repeat;
+    color: #fff;
+    margin-top: ;
+    /*padding: 10px 60px;*/
+}
+.bbook-form{
+    display: grid;
+}
+.form-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bbook-form input[type = "submit"]{
+    margin: 18px 0 0 0;
+    background: var(--dark);
+    color: #fff;
+    border: 1px solid #fff;
+}
+.bbook-form label, .bbook-form input{
+    width: 100%;
+}
+.bbook-form label{
+    font-weight: 600;
+    word-spacing: 5px;
+    padding-bottom: 8px;
+}
+.bbook-form input:not(.btn){
+    margin: 4px 0 16px 0;
+    padding: 12px 15px;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+}
+.bbook-form input:focus{
+    outline: 0;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.4);
 }
 
 /* room */
@@ -533,82 +576,15 @@ img{
     }
 }
 
-/* Sign Up - Joe*/
-.sign-up
-{
-    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("images/banner-img.jpg") center/cover no-repeat;
-    color: #fff;
-    padding: 40px 200px;
-
-}
-
-.sign-up-form
-{
-    width: 500px;  /* How big the sign up form is*/
-    /*background: white; let the background be transparent*/
-    padding: 40px;
-    margin: 10% auto 0%; /* Centers the form & 0 margin from top and 0 margin from bottom */
-    text-align: center;
-}
-
-.sign-up-form h1
-{
-    color: white;
-    font-family: 'Playfair Display', serif;
-}
-
-.signup-input-box
-{
-    border-radius: 20px;   /*Circular Shape*/
-    padding: 7px;
-    margin: 5px 0;
-    width: 100%;
-    font-size: 15px;
-}
-
-.sign-up-form label, .book-form input{
-    width: 100%;
-}
-.sign-up-form label{
-    font-weight: 600;
-    word-spacing: 3px;
-    padding-bottom: 8px;
-}
-
-.signup-dob
-{
-    font-size: 15px;
-    width: 30%;
-    padding: 2px;
-    /*color: white;*/
-    border-radius: 20px;
-    cursor: pointer; /*brings thumb on hover*/
-}
-
-.sign-up-btn
-{
-    font-size: 15px;
-    margin: 5px 0;
-    width: 300;
-    padding: 2px;
-    color: white;
-    border-radius: 20px;
-    background-color: brown;
-    cursor: pointer; /*brings thumb on hover*/
-}
-
 /* about*/
 .about{
 
-    padding: 20px;
-    text-align: center;
-    background: #333;
-    color: #f2f2f2;
-    font-size:30px;
-    position: fixed;
-    overflow: hidden;
-    top: 0;
-    width:100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family> "Open Sans", sans-serif;
+    box-sizing: border-box;
 }
 .body{
     min-height:100vh;
@@ -682,17 +658,4 @@ img{
     bottom: 0;
     left: 0;
     z-index: 5;
-}
-
-.privacy-top{
-    background-color: yellow;
-    
-}
-
-.privacy-top > center > h1{
-    font-size: 40px;
-}
-.privacy-top > center > p{
-    font-size: 20px;
-    
 }
