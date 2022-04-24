@@ -601,6 +601,12 @@ img{
     font-family: 'Playfair Display', serif;
 }
 
+
+.sign-up-form a 
+{
+    color: white;
+}
+
 .signup-input-box
 {
     border-radius: 20px;   /*Circular Shape*/
