@@ -644,6 +644,10 @@ img{
 /* about*/
 .about{
 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
     padding: 0;
     display: flex;
     flex-direction: column;
