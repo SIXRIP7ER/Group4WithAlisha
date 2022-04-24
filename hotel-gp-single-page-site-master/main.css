@@ -649,7 +649,7 @@ img{
 
 /* about*/
 .about{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("images/banner-img.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("images/happydogs.jpg") center/cover no-repeat;
     min-height: 100vh;
     color: #fff;
     padding: 25px;
@@ -668,13 +668,10 @@ img{
 .about-section{
     background: url(pic.jpg) no-repeat left;
     background-size: 55%;
-    background-color: #fdfdfd;
     overflow: hidden;
     padding: 100px 0;
 }
 .inner-container{
-    background-color: #fdfdfd;
-    padding: 150px;
 }
 .inner-container h1{
     margin-bottom: 30px;
@@ -682,11 +679,9 @@ img{
     font-weight: 900;
 }
 .text{
-    font-size: 13px;
-    color: #545454;
-    line-height; 30px;
-    text-align:justify;
-    margin-bottom: 40px;
+    padding: 22px 0;
+    font-size: 45px;
+    border-bottom: 1px solid #fff;
 }
 .skills{
     display: flex;
