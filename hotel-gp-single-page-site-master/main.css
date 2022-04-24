@@ -665,12 +665,7 @@ img{
     justify-content: center;
     
 }
-.about-section{
-    background: url(pic.jpg) no-repeat left;
-    background-size: 55%;
-    overflow: hidden;
-    padding: 100px 0;
-}
+
 .inner-container{
      background-color: #fdfdfd;
      padding: 20px;
