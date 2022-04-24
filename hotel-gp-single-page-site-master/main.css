@@ -284,7 +284,8 @@ img{
     color: #fff;
     padding-top: 200px;
     margin-top: ;
-    /*padding: 10px 60px;*/
+    padding-left: 60px;
+    padding-right: 60px;
 }
 .book-form{
     display: grid;
@@ -349,9 +350,12 @@ img{
 .bbook{
     background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("images/banner-img.jpg") center/cover no-repeat;
     color: #fff;
-    margin-top: ;
-    /*padding: 10px 60px;*/
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
+
 .bbook-form{
     display: grid;
 }
