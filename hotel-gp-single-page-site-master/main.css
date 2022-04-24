@@ -682,6 +682,7 @@ img{
     margin: 40px;
     font-size: 30px; 900
     font-weight: 900;
+    border-bottom: 1px solid #fff;
 }
 .text{
     flex: 1;
