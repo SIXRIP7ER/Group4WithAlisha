@@ -649,22 +649,14 @@ img{
 
 /* about*/
 .about{
-
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Playfair Display', serif;
-    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("images/banner-img.jpg") center/cover no-repeat;
+    min-height: 100vh;
+    color: #fff;
+    padding: 25px;
     display: flex;
-    margin: 0;
-    font-family> "Open Sans", sans-serif;
-    box-sizing: border-box;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 30px;
-    color: var(--yellow);
-    border-bottom: 5px solid var(--dark);
-    width: 235px;
+    flex-direction: column;
+    align-content: stretch;
+    
 }
 .body{
     min-height:100vh;
