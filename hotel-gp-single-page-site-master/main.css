@@ -669,13 +669,13 @@ img{
 .inner-container{
      background-color: #fdfdfd;
      float: right;
-     width: 55%;
-     padding: 150;
+     width: 20%;
+     padding: 50;
 }
 .inner-container h1{
    
-    margin-bottom: 40px;
-    font-size: 13px;
+    margin-bottom: 30px;
+    font-size: 30px;
     font-weight: 900;
 }
 .text{
