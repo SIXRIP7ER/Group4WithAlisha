@@ -28,8 +28,8 @@
 .navbar_fixed {
   overflow: hidden;
   background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 20mm; /* Position the navbar at the top of the page */
+  position: sticky; /* Set the navbar to fixed position */
+  top: 12mm; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 }
 /* Links inside the navbar */
