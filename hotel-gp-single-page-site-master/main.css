@@ -12,6 +12,11 @@
 }
 
 /* this is all for fixed header */
+.spacer {
+    top: 17mm;
+    padding: 17mm;
+    width: 100%;
+}
 .heading {
     padding: 20px;
     text-align: center;
