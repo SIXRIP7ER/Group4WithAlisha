@@ -18,18 +18,18 @@
     background: #333;
     color: #f2f2f2;
     font-size:30px;
-    /*position: sticky;*/
-    /*overflow: hidden;*/
+    position: fixed;
+    overflow: hidden;
     top: 0;
     width:100%;
     
   }
 /* The navigation bar */
 .navbar_fixed {
-  /*overflow: hidden;*/
+  overflow: hidden;
   background-color: #333;
-  position: sticky; /* Set the navbar to fixed position */
-  top: 0mm; /* Position the navbar at the top of the page */
+  position: fixed; /* Set the navbar to fixed position */
+  top: 20mm; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 }
 /* Links inside the navbar */
