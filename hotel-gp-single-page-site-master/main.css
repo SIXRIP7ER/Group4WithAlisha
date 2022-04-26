@@ -234,7 +234,7 @@ img{
 .title{
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 30px;
+    font-size: 25px;
     color: var(--yellow);
     border-bottom: 5px solid var(--dark);
     width: 235px;
