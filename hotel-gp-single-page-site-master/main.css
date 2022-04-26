@@ -697,6 +697,18 @@ img{
     font-weight: 700;
     font-size: 13px;
 }
+@media(max-width: 500px){
+    .about-section{
+        font-size: 34px;
+    }
+    .inner-container h2{
+        font-size: 28px;
+    }
+    .skills{
+        font-size: 17px;
+        margin: 20px auto;
+    }
+}
 
     
 
