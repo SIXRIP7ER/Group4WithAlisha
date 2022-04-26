@@ -654,11 +654,9 @@ img{
 .about{
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("images/happydogs.jpg") center/cover no-repeat;
     min-height: 100vh;
-    color: #fff;
     padding: 25px;
     display: flex;
-    flex-direction: column;
-    align-content: stretch;
+    align-content: center;
     
 }
 
@@ -678,6 +676,13 @@ img{
     font-size: 30px;
     font-weight: 900;
 }
+.skills{
+    display: flex;
+    color: #545454;
+    justify-content: space-between;
+    font-weight: 900;
+    font-size: 40px;
+}
 .text{
     margin-bottom: 40px;
     color: #545454;
@@ -685,13 +690,6 @@ img{
     text-align: center;
     font-size: 20px;
     font-weight: 700;
-}
-.skills{
-    display: flex;
-    color: #545454;
-    justify-content: space-between;
-    font-weight: 900;
-    font-size: 13px;
 }
 @media(max-width: 500px){
     .about-section{
