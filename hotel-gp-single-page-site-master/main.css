@@ -669,13 +669,13 @@ img{
     
 }
 .about-section{
-    background-size: 55%;
+    background-size: 20%;
 }
 
 .inner-container{
      background-color: #fdfdfd;
      float: right;
-     width: 40%;
+     width: 60%;
      padding: 150;
 }
 .inner-container h1{
@@ -693,6 +693,7 @@ img{
 }
 .skills{
     display: flex;
+    color: #545454;
     justify-content: space-between;
     font-weight: 700;
     font-size: 13px;
