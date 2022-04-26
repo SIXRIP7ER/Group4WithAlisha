@@ -670,8 +670,7 @@ img{
 }
 .about-section{
     background-size: 55%;
-    background-color: #fdfdfd;
-    overflow: hidden;
+}
 
 .inner-container{
      background-color: #fdfdfd;
@@ -689,12 +688,8 @@ img{
     margin-bottom: 40px;
     color: #545454;
     line-height: 30px;
-    text-align:justify;
-    flex: 1;
     text-align: center;
-    width: 80vw;
-    font-size: 45px;
-    width: 60vw;
+    font-size: 20px;
 }
 .skills{
     display: flex;
