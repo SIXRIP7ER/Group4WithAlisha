@@ -258,9 +258,6 @@ img{
 .service-content{
     padding-left: 20px;
 }
-.service-content h2{
-    opacity: 0.7;
-}
 
 @media(min-width: 992px){
     .services-container{
