@@ -694,33 +694,10 @@ img{
 .skills{
     display: flex;
     justify-content: space-between;
-    font-weightL 700;
+    font-weight: 700;
     font-size: 13px;
 }
-@media screen and (max-width:1200px){
-    .inner-container{
-        width: 100% ;
-    }
-}
 
-@media screen and (max-width:1200px){
-    .about-section
-        background-size: 100%;
-        padding: 100px 40px;
-    }
-    .inner-container{
-        width: 100% ;
-    }
-}
-
-@media screen and (max-width:1200px){
-    .about-section
-        padding: 0;
-    }
-    .inner-container{
-        padding: 60% ;
-    }
-}
     
 
 .showModal{
