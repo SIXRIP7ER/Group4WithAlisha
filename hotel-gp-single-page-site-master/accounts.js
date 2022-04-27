@@ -19,11 +19,24 @@ var customers = [
 ]
 
 
-function useless() {
-	console.log("your username is " + first_name)
-	console.log(admin.email)
-	admin.email = "admin@yahoo.com"
-	console.log(admin.email)
+function signIn() {
+	var email = document.getElementById("signup_email").value
+	var password = document.getElementById("signup_password").value
+
+	var success = 0
+
+	for(i = 0; i < customers.length; i++) {
+		if(email == customers[i].email && password == customers[i].password) {
+			alert("Hi " + customers[i].first_name + " you have signed in!")
+			window.location.href = "booking.html";
+			success = 1
+		}
+		//console.log("Yep this email does not exist with us")
+	}
+
+	if (success==0) {
+		alert("Sorry your email or password is not correct!")
+	}
 }
 
 function registerUser() {
