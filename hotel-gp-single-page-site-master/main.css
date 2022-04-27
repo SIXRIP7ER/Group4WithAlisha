@@ -662,13 +662,15 @@ img{
 
 .about-section{
     background-size: 20%;
+    display: grid;
 }
 
 .inner-container{
      background-color: #fdfdfd;
-     float: center;
+     float: right;
      width: 60%;
      padding: 150;
+     border: 1px solid #fff;
 }
 .inner-container h1{
    
@@ -694,6 +696,8 @@ img{
 @media(max-width: 500px){
     .about-section{
         font-size: 34px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
     }
     .inner-container h2{
         font-size: 28px;
