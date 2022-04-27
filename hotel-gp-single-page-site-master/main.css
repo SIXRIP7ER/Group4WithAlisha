@@ -693,18 +693,19 @@ img{
     font-size: 20px;
     font-weight: 700;
 }
-@media(max-width: 500px){
-    .about-section{
-        font-size: 34px;
+@media(min-width: 992px){
+    .inner-container{
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 30px;
     }
-    .inner-container h2{
-        font-size: 28px;
+    .about-section h2{
+        font-size: 10px!important;
     }
+}
+@media(max-width: 500px){
     .skills{
-        font-size: 17px;
-        margin: 20px auto;
+        font-size: 24px;
     }
 }
 
