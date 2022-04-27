@@ -665,18 +665,17 @@ img{
     flex-direction: column;
     align-content: stretch;
 }
-.about-section{
-    background-size: 20%;
-    display: grid;
-    backgroud: transparent;
-}
 
 .inner-container{
-     background-color: #fdfdfd;
+ `   position: relative;
+     width: 1200px;
+     height:300px;
+     margin: 240px auto;
+     background-color: #000;
      float: right;
-     width: 60%;
-     padding: 150;
-     border: 1px solid #fff;
+     box-sizing: border-box;
+     overflow: hidden;
+     border-radius: 10px;
      display: grid;
 }
 .inner-container h1{
@@ -690,10 +689,10 @@ img{
     color: #545454;
     justify-content: space-between;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 20px;
 }
 .text{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     color: #545454;
     line-height: 30px;
     text-align: center;
