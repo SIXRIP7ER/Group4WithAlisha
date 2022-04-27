@@ -27,15 +27,15 @@
     <div class="sign-up">
         <form class = "sign-up-form">
             <h1>Sign In</h1>
-            <input type="email" class="signup-input-box" placeholder="Your Email">
-            <input type="password" class="signup-input-box" placeholder="Your Password">
+            <input type="email" id = "signup_email" class="signup-input-box" placeholder="Your Email">
+            <input type="password" id = "signup_password" class="signup-input-box" placeholder="Your Password">
             <form action="signinconfirmation.html">
-                <button type="button" class = "sign-up-btn">LOG IN</button>
+                <button type="button" onclick="signIn()" class="sign-up-btn">LOG IN</button>
             </form>            
            <div>Don't have an account? <a href = "signup.html">Sign Up</a></div>
         </form>
-        
     </div>
+    <script src="accounts.js"></script>
 </body>
         <!-- Footer -->
         <footer class = "footer">
