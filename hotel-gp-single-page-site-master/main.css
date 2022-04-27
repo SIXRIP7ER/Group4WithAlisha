@@ -668,11 +668,12 @@ img{
 
 .inner-container{
  `   position: relative;
+     top: 20px;
      width: 1200px;
      height:300px;
      margin: 240px auto;
      background-color: #f1f1f1;
-     float: left;
+     float: center;
      box-sizing: border-box;
      overflow: hidden;
      border-radius: 10px;
